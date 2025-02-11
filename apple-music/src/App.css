@@ -1,0 +1,21 @@
+.app {
+  display: flex;
+}
+
+main {
+  flex: 1;
+  background: #121212;
+  color: white;
+}
+
+.cards {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.new {
+  margin-top: 20px;
+  padding: 20px;
+  margin-bottom: -50px;
+}
