@@ -1,5 +1,5 @@
 import SongItem from "./SongItem";
-import songs from "./Songs";
+import {songs} from "./Songs";
 import "./SongList.css";
 
 const SongList = () => (

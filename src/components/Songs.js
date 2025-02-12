@@ -11,7 +11,7 @@ import whatislove from "../assets/whatislove.jpg";
 import aphrodite from "../assets/aphrodite.jpg";
 import pantropiko from "../assets/pantropiko.jpg";
 
-const songs = [
+export const songs = [
   { title: "Dear Miss", artist: "Zach Bryan", image: dearmiss },
   { title: "Take You Down", artist: "SZA", image: takeyoudown },
   { title: "Born Again", artist: "LISA", image: bornagain },
@@ -26,4 +26,3 @@ const songs = [
   { title: "Pantropiko", artist: "BINI", image: pantropiko },
 ];
 
-export default songs;

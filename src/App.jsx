@@ -3,7 +3,7 @@ import Header from "./components/Header";
 import CardList from "./components/CardList";
 import SongList from "./components/SongList";
 import "./App.css";
-import '@fortawesome/fontawesome-free/css/all.min.css';
+import "@fortawesome/fontawesome-free/css/all.min.css";
 
 const App = () => {
   return (
