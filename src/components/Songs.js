@@ -25,4 +25,3 @@ export const songs = [
   { title: "Aphrodite", artist: "The Ridleys", image: aphrodite },
   { title: "Pantropiko", artist: "BINI", image: pantropiko },
 ];
-
