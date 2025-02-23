@@ -1,17 +1,17 @@
 .song-item {
-    display: flex;
-    justify-content: space-between;
-    padding: 10px;
-    border-bottom: 1px solid #333;
-  }
-  
-  .song-item p {
-    font-size: 16px;
-    color: white;
-  }
-  
-  .song-item span {
-    font-size: 14px;
-    color: #bbb;
-  }
-  
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #333;
+}
+
+.song-item p {
+  font-size: 16px;
+  color: white;
+}
+
+.song-item span {
+  font-size: 14px;
+  color: #bbb;
+}
+

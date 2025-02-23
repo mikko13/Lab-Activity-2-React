@@ -5,7 +5,6 @@ import image2 from "../assets/image2.jpg";
 import image3 from "../assets/image3.jpg";
 import image4 from "../assets/image4.jpg";
 
-
 const CardList = () => {
   return (
     <div className="cards">
@@ -13,6 +12,7 @@ const CardList = () => {
         image={image1}
         title="Kendrick Lamar Halftime"
         description="Relive the Super Bowl LIX Halftime Show."
+        isFeatured={true}
       />
       <Card
         image={image2}

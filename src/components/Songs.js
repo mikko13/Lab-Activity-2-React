@@ -12,10 +12,15 @@ import aphrodite from "../assets/aphrodite.jpg";
 import pantropiko from "../assets/pantropiko.jpg";
 
 export const songs = [
-  { title: "Dear Miss", artist: "Zach Bryan", image: dearmiss },
+  {
+    title: "Dear Miss",
+    artist: "Zach Bryan",
+    image: dearmiss,
+    isTrending: true,
+  },
   { title: "Take You Down", artist: "SZA", image: takeyoudown },
-  { title: "Born Again", artist: "LISA", image: bornagain },
-  { title: "TWENTIES", artist: "GIVĒON", image: twenties },
+  { title: "Born Again", artist: "LISA", image: bornagain, isTrending: true  },
+  { title: "TWENTIES", artist: "GIVĒON", image: twenties,},
   { title: "Abracadabra", artist: "Lady Gaga", image: abracadabra },
   { title: "I Bet You Think About Me", artist: "Taylor Swift", image: red },
   { title: "ACTIN UP", artist: "Tommy Richman", image: actinup },
@@ -23,5 +28,5 @@ export const songs = [
   { title: "Matilda", artist: "Harry Styles", image: matilda },
   { title: "What is Love?", artist: "TWICE", image: whatislove },
   { title: "Aphrodite", artist: "The Ridleys", image: aphrodite },
-  { title: "Pantropiko", artist: "BINI", image: pantropiko },
+  { title: "Pantropiko", artist: "BINI", image: pantropiko, isTrending: true },
 ];
