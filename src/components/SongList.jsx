@@ -5,7 +5,6 @@ import "./SongList.css";
 const SongList = () => {
   const updatedSongs = songs.map((song, index) => ({
     ...song,
-    isFeatured: index % 3 === 0, 
   }));
 
   return (
